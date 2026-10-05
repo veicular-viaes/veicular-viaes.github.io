@@ -3,7 +3,7 @@
   "use strict";
 
   /* Destino do formulário: abre um aplicativo de e-mail local, sem servidor. */
-  var CONTACT_EMAIL = "adauto.silva@aramisinc.com.br";
+  var CONTACT_EMAIL = "drbeneditomarcos@yahoo.com.br";
 
   var CATEGORIES = [
     {
@@ -431,13 +431,13 @@
       contactBlock.setAttribute("aria-label", "Dados do responsável pelo portal");
       contactBlock.innerHTML =
         '<strong>Responsável pelo portal</strong>' +
-        '<b class="owner-name">Vci Vanguard Confeccoes Importadas S.a.</b>' +
-        '<span class="owner-detail"><b>CNPJ:</b> 00.311.557/0065-08</span>' +
+        '<b class="owner-name">Benedito Marcos Sociedade Individual de Advocacia</b>' +
+        '<span class="owner-detail"><b>CNPJ:</b>66.187.454/0001-21</span>' +
         '<span class="owner-detail owner-tax-id">00311557006508</span>' +
-        '<a class="owner-detail" href="mailto:adauto.silva@aramisinc.com.br"><b>E-mail:</b> adauto.silva@aramisinc.com.br</a>' +
+        '<a class="owner-detail" href="mailto:drbeneditomarcos@yahoo.com.br"><b>E-mail:</b> drbeneditomarcos@yahoo.com.br</a>' +
         '<a class="owner-detail" href="tel:+551143801600"><b>Telefone:</b> (11) 4380-1600</a>' +
         '<span class="owner-detail owner-address-label">Para correspondência:</span>' +
-        '<address>Avenida Reboucas 2633 Bloco 2<br>Pinheiros<br>São Paulo SP · 05401-350</address>';
+        '<address>Setor Guara II Qe 40 Cj P Lt 1 S/N<br>Guara<br>Brasilia DF · 71070-162</address>';
       footerInner.appendChild(contactBlock);
     }
     var menuButton = document.querySelector(".menu-toggle");
